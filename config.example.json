@@ -1,0 +1,15 @@
+{
+  "ear_threshold": 0.21,
+  "closure_seconds": 1.5,
+  "mouth_threshold": 0.60,
+  "mouth_seconds": 2.0,
+  "window_seconds": 30.0,
+  "closed_fraction_threshold": 0.28,
+  "min_valid_seconds": 15.0,
+  "min_coverage": 0.8,
+  "max_gap": 0.35,
+  "calibration_seconds": 5.0,
+  "calibration_samples": 40,
+  "calibration_ratio": 0.7
+}
+

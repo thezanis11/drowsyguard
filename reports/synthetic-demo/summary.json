@@ -1,0 +1,104 @@
+{
+  "source_type": "synthetic_observations",
+  "config": {
+    "ear_threshold": 0.21,
+    "closure_seconds": 1.5,
+    "mouth_threshold": 0.6,
+    "mouth_seconds": 2.0,
+    "window_seconds": 30.0,
+    "closed_fraction_threshold": 0.28,
+    "min_valid_seconds": 15.0,
+    "min_coverage": 0.8,
+    "max_gap": 0.35,
+    "calibration_seconds": 5.0,
+    "calibration_samples": 40,
+    "calibration_ratio": 0.7
+  },
+  "events": [
+    {
+      "t": 0.0,
+      "state": "MONITORING",
+      "reason": "NO_RULE_TRIGGERED"
+    },
+    {
+      "t": 9.5,
+      "state": "ALERT",
+      "reason": "PROLONGED_EYE_CLOSURE"
+    },
+    {
+      "t": 10.2,
+      "state": "MONITORING",
+      "reason": "NO_RULE_TRIGGERED"
+    },
+    {
+      "t": 12.0,
+      "state": "UNOBSERVABLE",
+      "reason": "NO_FACE"
+    },
+    {
+      "t": 15.0,
+      "state": "MONITORING",
+      "reason": "NO_RULE_TRIGGERED"
+    },
+    {
+      "t": 17.0,
+      "state": "WATCH",
+      "reason": "PROLONGED_MOUTH_OPENING"
+    },
+    {
+      "t": 17.5,
+      "state": "MONITORING",
+      "reason": "NO_RULE_TRIGGERED"
+    },
+    {
+      "t": 19.5,
+      "state": "ALERT",
+      "reason": "PROLONGED_EYE_CLOSURE"
+    },
+    {
+      "t": 20.0,
+      "state": "MONITORING",
+      "reason": "NO_RULE_TRIGGERED"
+    },
+    {
+      "t": 23.266666666666666,
+      "state": "ALERT",
+      "reason": "HIGH_CLOSED_EYE_FRACTION"
+    },
+    {
+      "t": 23.5,
+      "state": "ALERT",
+      "reason": "PROLONGED_EYE_CLOSURE"
+    },
+    {
+      "t": 24.0,
+      "state": "ALERT",
+      "reason": "HIGH_CLOSED_EYE_FRACTION"
+    },
+    {
+      "t": 25.9,
+      "state": "MONITORING",
+      "reason": "NO_RULE_TRIGGERED"
+    },
+    {
+      "t": 26.066666666666666,
+      "state": "ALERT",
+      "reason": "HIGH_CLOSED_EYE_FRACTION"
+    },
+    {
+      "t": 27.5,
+      "state": "ALERT",
+      "reason": "PROLONGED_EYE_CLOSURE"
+    },
+    {
+      "t": 29.0,
+      "state": "ALERT",
+      "reason": "HIGH_CLOSED_EYE_FRACTION"
+    }
+  ],
+  "notes": [
+    "Rules are heuristic, not a clinical or driving-safety assessment.",
+    "Synthetic results test logic, not drowsiness detection accuracy.",
+    "No camera images or landmarks are stored in this export."
+  ]
+}

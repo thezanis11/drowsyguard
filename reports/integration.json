@@ -1,0 +1,21 @@
+{
+  "portrait_observation": {
+    "t": 0,
+    "ear": 0.2035877891591058,
+    "mouth": 0.2060168085663902,
+    "valid": true,
+    "reason": "VISIBLE"
+  },
+  "blank_observation": {
+    "t": 1.1,
+    "ear": null,
+    "mouth": null,
+    "valid": false,
+    "reason": "NO_FACE"
+  },
+  "wall_seconds": 2.092255299910903,
+  "fixture_url": "https://storage.googleapis.com/mediapipe-assets/portrait.jpg",
+  "fixture_sha256": "a6f11efaa834706db23f275b6115058fa87fc7f14362681e6abe14e82749de3e",
+  "scope": "Real model load + static portrait + blank frames. Not drowsiness validation.",
+  "webcam_opened": false
+}

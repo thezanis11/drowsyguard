@@ -1,0 +1,10 @@
+{
+  "frames": 210,
+  "calibration_completed": true,
+  "final_state": "UNOBSERVABLE",
+  "final_time_seconds": 6.966666666666667,
+  "alerts": 0,
+  "scope": "Repeated portrait followed by blank frames. Not a driver dataset.",
+  "webcam_opened": false,
+  "command_output": "   0.00s  CALIBRATING    KEEP_EYES_OPEN\n   5.00s  MONITORING     KEEP_EYES_OPEN\n   5.03s  MONITORING     NO_RULE_TRIGGERED\n   6.00s  UNOBSERVABLE   NO_FACE\n210 images trait\ufffdes. Aucune image de cam\ufffdra enregistr\ufffde.\n"
+}
