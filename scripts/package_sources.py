@@ -6,7 +6,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 archive = ROOT.parent / "DrowsyGuard_sources_2026-11-10.zip"
-allowed_roots = {"drowsyguard", "tests", "scripts", "docs", "reports", "models"}
+allowed_roots = {"drowsyguard", "tests", "scripts", "docs", "reports", "models", ".github"}
 included = []
 with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as out:
     for path in sorted(ROOT.rglob("*")):
